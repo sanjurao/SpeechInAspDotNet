@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    
+
+</head>
+<body>   
+    <script type="text/javascript">
+    var recognition = new webkitSpeechRecognition();        
+    recognition.onresult = function (event) {
+        console.log(event)
+        //final_span = document.getElementById('final_span');
+        //final_span.innerHTML = '';
+
+    }
+    recognition.start();
+
+    </script>   
+</body>
+</html>
